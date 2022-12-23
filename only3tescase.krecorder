@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>only3tescase</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">login on panza</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td><datalist></datalist></td><td></td></tr>
+<tr><td>store</td><td>paatik975@gmail.com<datalist><option>paatik975@gmail.com</option></datalist></td><td>login</td></tr>
+<tr><td>store</td><td>Kisishvili1993<datalist><option>Kisishvili1993</option></datalist></td><td>pass</td></tr>
+<tr><td>click</td><td>//*[@id="header-right"]/ul[2]/li[2]/a<datalist><option>//*[@id="header-right"]/ul[2]/li[2]/a</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>//*[@id="sso_google"]/img<datalist><option>//*[@id="sso_google"]/img</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="username"]<datalist><option>//*[@id="username"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>//*[@id="username"]<datalist><option>//*[@id="username"]</option></datalist></td><td>${login}</td></tr>
+<tr><td>click</td><td>//*[@id="password"]<datalist><option>//*[@id="password"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>//*[@id="password"]<datalist><option>//*[@id="password"]</option></datalist></td><td>${pass}</td></tr>
+<tr><td>click</td><td>//*[@id="login_submit"]<datalist><option>//*[@id="login_submit"]/font/font</option><option>//*[@id="login_submit"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Log out<datalist><option>xpath=//div[@id='header-right']/ul[2]/li[2]/div/ul/li[6]/a/font/font</option><option>link=Вийти</option><option>link=LogOut</option><option>link=Log out</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="header-right"]/ul[2]/li[2]/a<datalist><option>//*[@id="header-right"]/ul[2]/li[2]/a/font/font</option><option>//*[@id="header-right"]/ul[2]/li[2]/a</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=username<datalist><option>id=ім'я користувача</option><option>id=username</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>//*[@id="username"]<datalist><option>//*[@id="username"]</option></datalist></td><td>${login}</td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>//*[@id="password"]<datalist><option>//*[@id="password"]</option></datalist></td><td>${pass}</td></tr>
+<tr><td>click</td><td>//*[@id="login_submit"]<datalist><option>//*[@id="login_submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">test serach video and play </td></tr>
+</thead>
+<tbody>
+<tr><td>store</td><td>Battlefield<datalist><option>battlefield</option><option>Battlefield</option></datalist></td><td>battle</td></tr>
+<tr><td>click</td><td>//*[@id="container"]/div[4]/div[1]/h3/a<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=search<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=search<datalist></datalist></td><td>${battle}</td></tr>
+<tr><td>sendKeys</td><td>id=search<datalist><option>//*[@id="controls"]/div/div/a[6]/svg</option><option>sendKeys</option><option>id=search</option></datalist></td><td>${KEY_ENTER}</td></tr>
+<tr><td>click</td><td>//*[@id="creationlist"]/div[8]/a[2]<datalist><option>//*[@id="creationlist"]/div[8]/a[2]</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>//*[@id="creation_title"]<datalist><option>//*[@id="controls"]/div/div</option><option>//*[@id="creation_title"]</option></datalist></td><td>${battle}</td></tr>
+<tr><td>assertElementPresent</td><td>//*[@id="creation_thumbnail"]<datalist><option>//*[@id="creation_thumbnail"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@id="creation_user_follow"]<datalist><option>xpath=//div[@id='previewbottom']/a[2]</option><option>//*[@id="previewbottom"]/a[2]</option><option>//*[@id="creation_controls"]/button[1]/svg/use</option><option>//*[@id="creation_user_follow"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='creation_controls']/button<datalist><option>xpath=//div[@id='previewbottom']/a</option><option>//*[@id="previewbottom"]/a[1]</option><option>//*[@id="creation_user_follow"]</option><option>//*[@id="creation_controls"]/button[1]</option><option>xpath=//div[@id='creation_controls']/button</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=creation_open<datalist><option>id=creation_open</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">test background functional</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://panzoid.com/<datalist><option>https://panzoid.com/</option></datalist></td><td></td></tr>
+<tr><td>store</td><td>Basic settings<datalist><option>New Project</option><option>New Project</option><option>New project</option><option>Load project</option><option>Basic settings</option></datalist></td><td>BS</td></tr>
+<tr><td>click</td><td>xpath=//a[@id='backgrounder_tile']/div<datalist><option>xpath=//a[@id='backgrounder_tile']/div</option><option>xpath=//a[2]/div</option><option>css=#backgrounder_tile > div</option></datalist></td><td></td></tr>
+<tr><td>selectFrame</td><td>index=1<datalist><option>index=1</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='controls']/div/img<datalist><option>xpath=//div[@id='controls']/div/img</option><option>xpath=//div/img</option><option>css=img.templateitem</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Basics<datalist><option>link=Basics</option><option>xpath=//div[@id='elevatortabs']/a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Templates'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Save project'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Layers'])[1]/preceding::a[1]</option><option>xpath=//div[2]/div/a[2]</option><option>css=a[title="Basics"]</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>//*[@id="controls"]/div[2]/div[1]/span<datalist><option>link=Load project</option><option>Basic settings</option><option>//*[@id="controls"]/div[2]/div[1]/span</option></datalist></td><td>${BS}</td></tr>
+<tr><td>click</td><td>link=Layers<datalist><option>link=Layers</option><option>xpath=//div[@id='elevatortabs']/a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Basics'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Templates'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::a[1]</option><option>xpath=//div[2]/div/a[3]</option><option>css=a[title="Layers"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Download<datalist><option>link=Download</option><option>xpath=//div[@id='elevatortabs']/a[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Layers'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Basics'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::a[1]</option><option>xpath=//a[4]</option><option>css=a[title="Download"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Start image render<datalist><option>link=Start image render</option><option>xpath=//div[@id='controls']/div[4]/div[2]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quality'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Format'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your render is finished! Click below to download.'])[1]/preceding::a[1]</option><option>xpath=//div[4]/div[2]/a</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='controls']/div[4]/div[3]/a[2]/span<datalist><option>xpath=//div[@id='controls']/div[4]/div[3]/a[2]/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Download your image'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your render is finished! Click below to download.'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Templates'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Basics'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Return to editing']/parent::*</option><option>xpath=//div[3]/a[2]/span</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>link=Basics<datalist><option>link=Basics</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>link=Save project<datalist><option>link=Save project</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
